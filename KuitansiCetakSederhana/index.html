@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-item">
+            <div class="form-header">
+                <h1>Kuitansi Cetak</h1>
+            </div>
+            <hr>
+            <div class="form-box">
+                <div class="form-item">
+                    <label for="">Nama</label>
+                    <input id="nama" type="text" placeholder="Masukan nama anda.">
+                </div>
+                <div class="form-item">
+                    <label for="">Barang</label>
+                    <input id="barang" type="text" placeholder="Masukan nama barang.">
+                </div>
+                <div class="form-item">
+                    <label for="">Harga</label>
+                    <input id="harga" type="text" placeholder="Masukan harga barang.">
+                </div>
+                <div class="form-item">
+                    <button id="btn-submit">Submit</button>
+                </div>
+            </div>
+            <hr>
+            <div class="cart-box">
+                <div class="cart-header">
+                    <h3>Carts : </h3>
+                    <span id="nama-cart"></span>
+                </div>
+                <div class="cart-table">
+                    <table border="1" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Nama</th>
+                                <th>Harga</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                            <!-- <tr>
+                                <td>1</td>
+                                <td>Laptop</td>
+                                <td>Rp. 100000</td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="submit-print">
+                <button id="btn-print">Cetak</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
